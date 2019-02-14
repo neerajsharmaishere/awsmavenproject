@@ -1,0 +1,1 @@
+awsmavenproject repository
