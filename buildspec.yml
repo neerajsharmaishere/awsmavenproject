@@ -11,4 +11,7 @@ artifacts:
   files:
     - target/awsproject3-0.0.1-SNAPSHOT.war
     - appspec.yml
+    - scripts/install_dependencies
+    - scripts/start_server
+    - scripts/stop_server
   discard-paths: yes
