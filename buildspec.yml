@@ -3,12 +3,10 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Build started on `date`
-      - mvn test 
+      - echo Build started on `date` 
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn package
 artifacts:
   files:
     - target/awsproject3-0.0.1-SNAPSHOT.war
