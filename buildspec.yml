@@ -4,11 +4,11 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - mvn package
+      - sudo mvn install
   post_build:
     commands:
       - echo Build completed on `date`
-      - mvn package
+      - sudo mvn package
 artifacts:
   files:
     - target/awsproject3-0.0.1-SNAPSHOT.war
