@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo yum install -y tomcat8
+yum install -y tomcat8
